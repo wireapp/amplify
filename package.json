@@ -1,17 +1,22 @@
 {
   "author": "appendTo (http://appendto.com/)",
-  "name": "amplify",
-  "description": "AmplifyJS is a set of components for data management and application communication.",
-  "version": "1.1.5",
-  "typings": "./typings/index.d.ts",
-  "homepage": "http://amplifyjs.com/",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/appendto/amplify.git"
-  },
   "bugs": {
     "url": "http://github.com/appendto/amplify/issues/"
   },
+  "dependencies": {},
+  "description": "AmplifyJS is a set of components for data management and application communication.",
+  "devDependencies": {
+    "anvil.uglify": "0.1.0",
+    "rimraf": "2.0.1",
+    "strata": "0.20.1",
+    "underscore": "latest",
+    "async": "latest"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "files": ["lib"],
+  "homepage": "http://amplifyjs.com/",
   "licenses": [
     {
       "type": "MIT",
@@ -22,16 +27,13 @@
       "url": "http://www.opensource.org/licenses/GPL-2.0"
     }
   ],
-  "engines": {
-    "node": "*"
+  "main": "lib/amplify.js",
+  "name": "amplify",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/appendto/amplify.git"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "anvil.uglify": "0.1.0",
-    "rimraf": "2.0.1",
-    "strata": "0.20.1",
-    "underscore": "latest",
-    "async": "latest"
-  },
-  "optionalDependencies": {}
+  "typings": "./typings/index.d.ts",
+  "version": "1.1.6"
 }
