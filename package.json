@@ -3,19 +3,23 @@
   "bugs": {
     "url": "http://github.com/appendto/amplify/issues/"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@types/jquery": "3.3.14"
+  },
   "description": "AmplifyJS is a set of components for data management and application communication.",
   "devDependencies": {
     "anvil.uglify": "0.1.0",
+    "async": "latest",
     "rimraf": "2.0.1",
     "strata": "0.20.1",
-    "underscore": "latest",
-    "async": "latest"
+    "underscore": "latest"
   },
   "engines": {
     "node": "*"
   },
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "homepage": "http://amplifyjs.com/",
   "licenses": [
     {
