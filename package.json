@@ -15,7 +15,8 @@
     "underscore": "latest"
   },
   "files": [
-    "lib"
+    "lib",
+    "typings/index.d.ts"
   ],
   "homepage": "http://amplifyjs.com/",
   "licenses": [
