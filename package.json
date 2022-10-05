@@ -8,14 +8,11 @@
   },
   "description": "AmplifyJS is a set of components for data management and application communication.",
   "devDependencies": {
-    "anvil.uglify": "0.1.0",
+    "anvil.uglify": "https://github.com/wireapp/anvil.uglify",
     "async": "latest",
     "rimraf": "2.0.1",
     "strata": "0.20.1",
     "underscore": "latest"
-  },
-  "engines": {
-    "node": "*"
   },
   "files": [
     "lib"
@@ -33,11 +30,11 @@
   ],
   "main": "lib/amplify.js",
   "name": "amplify",
-  "optionalDependencies": {},
   "repository": {
     "type": "git",
     "url": "git://github.com/appendto/amplify.git"
   },
   "typings": "./typings/index.d.ts",
-  "version": "1.1.7"
+  "version": "1.1.7",
+  "packageManager": "yarn@3.2.3"
 }
